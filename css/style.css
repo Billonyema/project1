@@ -1,0 +1,528 @@
+
+#top{
+    background-color: rgb(16, 16, 26);
+}
+
+
+
+/* navigation bar  */
+.navbar-brand2{
+    font-size: 25px;
+    text-transform: capitalize;
+    color: whitesmoke ;
+    text-decoration: none
+    
+}
+
+.dropdown ul{
+    background-color: black;
+}
+
+.navbar-nav a{
+    color: whitesmoke ;
+    font-size: 18px;
+}
+
+
+ 
+/* stylinh home page */ /* stylinh home page */
+/* container body  */
+.body{
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 0;
+    color: white;
+}
+
+.body .img1{
+    border-radius: 0.5rem;
+    height: 300px;
+    width: 550px;
+}
+.body .t1{ 
+    padding-top: 5%;
+}
+
+.b2{
+    margin-left: 3%;
+}
+
+/* items */
+
+.items{
+    padding: 8% 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bi{
+    font-size: 25px;
+    background-color: rgb(42, 42, 109) ;
+    padding: 2% 5%;
+    border-radius: 0.5rem;
+    color: white;
+}
+
+/* text below items */
+.text{
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 5%;
+    margin-bottom: 5%;
+}
+
+
+.text1{
+    font-size: 25px;
+    text-align: center;
+}
+
+.text2{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.text2 img{
+    height: 35px;
+    width: 35px;
+    object-fit: cover;
+    border-radius: 100%; 
+}
+
+.text2 p{
+    font-size: 15px;
+    padding-top: 6%;
+    padding-left: 10px;
+}
+
+.text3{
+    display: flex;
+    
+}
+
+.text3 img{
+    height: 35px;
+    width: 35px;
+    object-fit: cover;
+    border-radius: 100%; 
+}
+
+.text3 p{
+    font-size: 15px;
+    padding-top: 0.5%;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+
+
+ /* blog  */
+.blog{
+   text-align: center;
+   margin: 5% 0;
+}
+
+.display{
+    margin-bottom: 5%;
+}
+
+.card img{
+    object-fit: cover;
+}
+.cardb{
+    border-radius: 0.5rem;
+    font-size: 10px;
+    margin: 5% 0;
+    background-color: rgb(42, 42, 109);
+    color: white;
+    padding:0 3% ;
+    font-size: 15px;
+}
+
+.row{
+    border: none;
+}
+
+/* <!-- large button  --> */
+
+.largeb{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(42, 42, 109) ;
+    color: white;
+    padding: 2%;
+    margin-bottom: 5%;
+    border-radius: 0.5rem;
+}
+
+.largeb h1{
+    font-size: 30px;
+}
+
+
+
+/* footer  */
+.footer{
+    padding: 2% 8%;
+    color: white;
+    /* margin-top: 10%; */
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(16, 16, 26)
+}
+
+.footer ul{
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.footer a{
+    color: white;
+}
+
+
+
+/* styling about page  */ /* styling about page  */
+
+/* body 1  */
+#body1{
+    text-align: center;
+    margin: 10% 0;   
+}
+
+.figure h4{
+    text-align: center;
+    margin-top: 8%;
+}
+
+.figure p{
+    text-align: center;
+}
+
+.bd1 button{
+    border-radius: 0.5rem;
+    font-size: 20px;
+    padding: 0.8%;
+    background-color: rgb(42, 42, 109) ;
+    color: white;
+}
+
+
+/* body 2  */
+
+.figure1{
+    display: flex;
+    justify-content: space-between;
+    margin: 12% 0;   
+}
+
+.figure1-caption{
+    padding-top: 25%;
+    
+}
+
+.figure1-caption h1{
+    text-transform: capitalize;
+}
+
+.figure2{
+    display: flex;
+    justify-content: space-between; 
+    margin-bottom: 5%;  
+}
+
+.figure2-caption{
+    padding-top: 25%; 
+}
+
+.figure2-caption h1{
+    text-transform: capitalize;
+}
+
+/* team  */
+
+.tb{
+    background-color: whitesmoke;
+}
+
+.team{
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 10%;
+}
+
+.teamd{
+    margin: 0% 10%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 8%;
+    padding-top: 6%;
+}
+
+.teamd img{
+    object-fit: cover;
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+}
+
+
+/* styling contact page  */  /* styling contact page  */ 
+
+.contact{
+    background-color: whitesmoke;
+    margin: 5%;
+    text-align: center;
+    padding: 2%;
+}
+
+.contact i{
+    font-size: 40px;
+    padding: 0 2%;
+    background-color: rgb(42, 42, 109) ;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+
+.form input{
+    margin-bottom: 2%;
+    padding: 1%;
+    width: 50%;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    border: none;
+}
+
+.form textarea{
+    width: 50%;
+}
+
+.form button{
+    width: 50%;
+    font-size: 25px;
+    border-radius: 0.5rem;
+    margin-top: 2%;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+    margin-top: 8%;
+}
+
+
+
+
+/* styling pricing  */ /* styling pricing  */ 
+.back{
+    background-color: rgb(236, 234, 234);
+}
+.pcontent{
+    text-align: center;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    
+}
+.pay{
+    margin-bottom: 8% ;
+    text-emphasis: 100%;
+}
+
+.pricing{
+    display: flex;
+    justify-content: space-between;
+    /* margin-bottom: 5%; */
+}
+
+.pricing p{
+    text-align: justify;
+}
+
+.pricing button{
+    padding: 3% 0;
+    text-transform: capitalize;
+    width: 100%;
+    border-radius: 0.3rem;
+    border: 0.5px solid rgb(121, 121, 192);
+    margin-top: 5%;
+}
+
+
+.amount{
+    font-size: 60px;
+}
+
+.p1{
+    border: 2px whitesmoke solid;
+    background-color: white;
+    padding: 5%;
+    border-radius: 0.8rem;
+}
+
+.p1 button{
+    background-color: white;
+}
+
+
+.p2{
+    border: 2px whitesmoke solid;
+    background-color: white;
+    padding: 5%;
+    border-radius: 0.5rem;
+}
+
+.p2 button{
+    background-color: rgb(42, 42, 109);
+    color: white;
+}
+
+.p3{
+    border: 2px whitesmoke solid;
+    background-color: white;
+    padding: 5%;
+    border-radius: 0.5rem;
+}
+
+.p3 button{
+    background-color: white;
+}
+
+
+
+
+/* styling faq page  */  /* styling faq page  */ 
+.faq{
+    text-align: center;
+    margin: 7%;
+}
+
+.ac1{
+    margin-bottom: 5%;
+    width: 60%;
+    
+}
+
+.ac2{
+    margin-bottom: 5%;
+    width: 60%;
+}
+
+.faqo{
+    display: flex;
+}
+
+
+
+
+/* stylingnblog home  */ /* stylingnblog home  */
+.blog1{
+    margin: 4% 0;
+}
+
+.blog1 strong{
+    font-size: 25px;
+}
+/* 
+.bh1{
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    
+} */
+
+/* .bh1t{
+    padding: 5%;
+    padding-top: 10%;
+} */
+
+.bh1 button{
+    border-radius: 0.8rem;
+    color: white;
+    background-color: rgb(42, 42, 109);
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.bh1t a{
+    text-decoration: none;
+}
+
+.img{
+    width: 619px;
+    height: 430px;
+    object-fit: cover;
+}
+
+.news{
+    background-color: whitesmoke;
+    margin: 3% 0;
+    padding-top: 5% ;
+    padding-bottom: 5%;
+}
+
+.tleft a{
+    font-size: 30px;
+    color: black;
+    font-weight: 600;
+}
+
+.tleft strong{
+    font-size: 25px;
+}
+
+.stories strong{
+    font-size: 25px;
+}
+
+
+
+/* styling overview  */  /* styling overview  */ 
+.work{
+    text-align: center;
+}
+
+.work h1{
+    font-weight: bold;
+}
+
+
+.build{
+    background-color: whitesmoke;
+    padding: 8%;
+    margin-top: 10%;
+}
+
+.build h1{
+    font-size: 50px;
+    font-weight: 700;   
+}
+
+
+/* styling itrem  */ /* styling itrem  */
+.it{
+    text-align: center;
+    margin: 5%;
+}
+
+.item a{
+    text-align: center;
+}
+
+.it h1{
+    font-weight: 700;
+}
+
+.item p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.ri{
+    margin: 5%;
+}
+
